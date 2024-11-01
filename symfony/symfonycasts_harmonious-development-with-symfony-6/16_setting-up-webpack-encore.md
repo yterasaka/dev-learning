@@ -32,3 +32,13 @@ yarn -v
 ```bash
 composer require encore:1.14.0
 ```
+
+## Node の依存関係をインストール
+
+- 以下を実行する。
+
+```bash
+yarn install
+# or
+npm install
+```
