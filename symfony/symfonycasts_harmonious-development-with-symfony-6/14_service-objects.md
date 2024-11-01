@@ -7,7 +7,7 @@
 ## 学習リソース
 
 - Symfonycasts: Harmonious Development with Symfony 6
-- [#14 Service Objects}](https://symfonycasts.com/screencast/symfony6/services)
+- [#14 Service Objects](https://symfonycasts.com/screencast/symfony6/services)
 
 ## Service
 

@@ -7,7 +7,7 @@
 ## 学習リソース
 
 - Symfonycasts: Harmonious Development with Symfony 6
-- [#15 Service Objects}](https://symfonycasts.com/screencast/symfony6/twig-service)
+- [#15 Service Objects](https://symfonycasts.com/screencast/symfony6/twig-service)
 
 ## The Profiler for API Requests
 

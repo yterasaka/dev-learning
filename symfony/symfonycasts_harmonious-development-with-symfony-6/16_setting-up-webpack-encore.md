@@ -7,7 +7,7 @@
 ## 学習リソース
 
 - Symfonycasts: Harmonious Development with Symfony 6
-- [#16 Setting up Webpack Encore}](https://symfonycasts.com/screencast/symfony6/webpack-encore)
+- [#16 Setting up Webpack Encore](https://symfonycasts.com/screencast/symfony6/webpack-encore)
 
 ## Webpack Encore
 
