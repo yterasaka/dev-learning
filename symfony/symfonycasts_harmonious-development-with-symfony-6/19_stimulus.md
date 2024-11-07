@@ -49,3 +49,9 @@ export default class extends Controller {
 ```twig
 <div {{ stimulus_controller('hello') }}></div>
 ```
+
+---
+
+参照:
+
+- [【初心者】Stimulus の使い方](https://qiita.com/SAPPOROBEER/items/ce29b3551e65ea901108)
