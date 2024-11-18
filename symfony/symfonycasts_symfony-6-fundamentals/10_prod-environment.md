@@ -7,7 +7,7 @@
 ## 学習リソース
 
 - Symfonycasts: Symfony 6 Fundamentals: Services, Config & Environments
-- [#19 The "prod" Environments](https://symfonycasts.com/screencast/symfony6-fundamentals/prod-environment)
+- [#10 The "prod" Environments](https://symfonycasts.com/screencast/symfony6-fundamentals/prod-environment)
 
 ## `prod` 環境
 
