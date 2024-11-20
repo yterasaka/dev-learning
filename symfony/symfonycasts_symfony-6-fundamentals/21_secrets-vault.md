@@ -2,7 +2,7 @@
 
 ## 学習日
 
-- 2024/11/19
+- 2024/11/20
 
 ## 学習リソース
 
@@ -51,7 +51,7 @@ php bin/console cache:warmup
 ```bash
 php bin/console secrets:set GITHUB_TOKEN
 
-# パスワードを入力する
+# シークレット値を入力する
 ```
 
 - 上記コマンドを実行すると、`config/secrets/dev/` ディレクトリに暗号化されたファイルが生成される。

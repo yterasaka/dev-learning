@@ -2,7 +2,7 @@
 
 ## 学習日
 
-- 2024/11/19
+- 2024/11/20
 
 ## 学習リソース
 
@@ -10,40 +10,6 @@
 - [#20 Environment Variables](https://symfonycasts.com/screencast/symfony6-fundamentals/environment-variables)
 
 ## Authorization Header を追加する
-
-<!-- ### HTTP クライアントの設定
-
-- `config/packages/framework.yaml` で設定を行う
-
-```yaml
-framework:
-  http_client:
-    scoped_clients:
-      githubContentClient:
-        base_uri: https://raw.githubusercontent.com
-```
-
-### HTTP リクエストのヘッダーに認証トークンを追加
-
-- サービス側の、HTTP リクエストに認証トークンを追加する。
-
-```php
-class MixRepository
-{
-    public function findAll(): array
-    {
-        return $this->cache->get('mixes_data', function(CacheItemInterface $cacheItem) {
-            $response = $this->githubContentClient->request('GET', '/SymfonyCasts/vinyl-mixes/main/mixes.json', [
-                'headers' => [
-                    'Authorization' => 'Token ghp_foo_bar',
-                ]
-            ]);
-        });
-    }
-}
-``` -->
-
-<!-- ### Authorization Header を `framework.yaml` に移動 -->
 
 - Authorization Header は、以下のようにサービスに直接追加することができる。
 
