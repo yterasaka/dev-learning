@@ -1,4 +1,4 @@
-# 19. Controllers are Services Too!
+# 19. Controllers are Services Too
 
 ## 学習日
 
