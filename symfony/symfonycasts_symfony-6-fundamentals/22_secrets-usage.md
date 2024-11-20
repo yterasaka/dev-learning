@@ -58,3 +58,19 @@ php bin/console secrets:list --reveal --env=prod
 
 - 開発環境で "ダミーの値" を Vault に設定している場合、`.env.local` で一時的に本番用のトークンを設定して作業を続ける。
 - 作業終了後、`.env.local` の内容を戻すことを忘れない。
+
+## トークンの値をブラウザで確認する
+
+- 以下のようにして、トークンの値をブラウザで確認できる。
+
+```php
+class MixRepository
+{
+    public function findAll(): array
+    {
+        dd($this->githubContentClient);
+    }
+}
+```
+
+- ブラウザで dump された領域をクリックして、`cmd または ctrl + F` を押して検索することで、トークンの値を確認できる。
